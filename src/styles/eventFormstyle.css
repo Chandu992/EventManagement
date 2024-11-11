@@ -1,0 +1,74 @@
+
+.event-form-container {
+    font-family: Arial, sans-serif;
+    background-color: #b2e1ae;
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+ 
+  input[type="text"],
+  input[type="datetime-local"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="datetime-local"]:focus,
+  textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+ 
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #508fed;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .but:hover {
+    background-color: #45a049;
+  }
+  
+
+  @media (max-width: 600px) {
+    .event-form-container {
+      padding: 20px;
+    }
+  
+    input[type="text"],
+    input[type="datetime-local"],
+    textarea,
+    button {
+      font-size: 14px;
+    }
+  }
+  
